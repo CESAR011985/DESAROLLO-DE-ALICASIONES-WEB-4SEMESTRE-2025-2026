@@ -1,0 +1,42 @@
+/* Botón personalizado */
+.btn-primary {
+    background-color: #ff5733;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+}
+
+/* Animación de cards */
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Inputs redondeados */
+.form-control {
+    border-radius: 12px;
+}
+
+/* Sombra suave */
+.shadow {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15) !important;
+}
+
+/* Media Query personalizada */
+@media (max-width: 768px) {
+    body {
+        background-color: #f0f8ff;
+    }
+
+    h1 {
+        color: #ff5733;
+    }
+}

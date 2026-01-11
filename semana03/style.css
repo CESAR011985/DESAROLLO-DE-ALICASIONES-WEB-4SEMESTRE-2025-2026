@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    margin: 15px 0;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* Imagen */
+img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+/* Tabla */
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 2px solid #333;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+/* Formulario */
+form {
+    background-color: white;
+    padding: 15px;
+    border: 2px solid #007bff;
+    width: 300px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}

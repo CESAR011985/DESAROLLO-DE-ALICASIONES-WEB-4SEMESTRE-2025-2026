@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto Semana 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Proyecto Web Semana 3</h1>
+    <p>Ejemplo de página usando <strong>HTML semántico</strong> y <em>CSS básico</em>.</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a> |
+    <a href="#contenido">Contenido</a> |
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<main>
+
+    <section id="inicio">
+        <h2>Sección Principal</h2>
+        <p>
+            Este proyecto demuestra el uso de etiquetas semánticas,
+            multimedia y estilos personalizados.
+        </p>
+    </section>
+
+    <section id="contenido">
+        <article>
+            <h3>Artículo Informativo</h3>
+            <p>
+                HTML permite estructurar contenido usando etiquetas como
+                <strong>header</strong>, <strong>section</strong> y <em>article</em>.
+            </p>
+        </article>
+
+        <!-- IMAGEN -->
+        <h3>Imagen</h3>
+        <img src="assets/img/imagen1.jpg" alt="Imagen de ejemplo">
+
+        <!-- VIDEO -->
+        <h3>Video</h3>
+        <video controls width="300">
+            <source src="assets/video/video1.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+
+        <!-- LISTAS -->
+        <h3>Listas</h3>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <ol>
+            <li>Diseñar</li>
+            <li>Desarrollar</li>
+            <li>Publicar</li>
+        </ol>
+
+        <!-- ENLACE -->
+        <h3>Enlace Externo</h3>
+        <a href="https://www.w3schools.com" target="_blank">
+            Visitar W3Schools
+        </a>
+
+        <!-- TABLA -->
+        <h3>Tabla de Tecnologías</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tecnología</th>
+                    <th>Uso</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Estructura</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Diseño</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Interactividad</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <!-- FORMULARIO -->
+    <section id="contacto">
+        <h2>Formulario de Contacto</h2>
+
+        <form>
+            <label>Nombre:</label><br>
+            <input type="text" name="nombre"><br><br>
+
+            <label>Correo:</label><br>
+            <input type="email" name="correo"><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 - Proyecto Semana 3</p>
+</footer>
+
+</body>
+</html>

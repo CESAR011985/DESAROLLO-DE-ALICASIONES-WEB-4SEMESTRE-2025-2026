@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h3>Editar Cliente</h3>
+
+<form method="POST">
+    <input type="text" name="nombre" value="{{ cliente.nombre }}" class="form-control mb-2" required>
+    <input type="text" name="telefono" value="{{ cliente.telefono }}" class="form-control mb-2" required>
+    <input type="text" name="direccion" value="{{ cliente.direccion }}" class="form-control mb-2" required>
+
+    <button class="btn btn-primary">Actualizar</button>
+    <a href="/clientes" class="btn btn-secondary">Volver</a>
+</form>
+
+{% endblock %}
